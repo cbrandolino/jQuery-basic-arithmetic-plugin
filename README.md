@@ -1,6 +1,6 @@
 # jQuery basic arithmetic plugin
 
-I found myself with a number in my variable, wanting to add it to another numebr. Searching the web, I came across [a screenshot of a stackoverflow thread](http://www.doxdesk.com/img/updates/20091116-so-large.gif) pointing to the obvious answer: I needed a jQuery plugin.
+I found myself with a number in my variable, wanting to add it to another number. Searching the web, I came across [a screenshot of a stackoverflow thread](http://www.doxdesk.com/img/updates/20091116-so-large.gif) pointing to the obvious answer: I needed a jQuery plugin.
 
 Unfortunately, it seems like nobody wrote a decent plugin for such a common occurrence yet, so I decided to take the matters into my own hands: here's **jQuery.basic_arithmetics**.
 
