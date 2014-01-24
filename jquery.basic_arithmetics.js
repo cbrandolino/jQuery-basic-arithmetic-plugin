@@ -65,5 +65,15 @@
         return this.result;
 
     }
+    
+    $.equals = function() {
+
+        this.operate = function(i) {
+            this.result = this.result === this.operands[i];
+        }
+
+        Operation.apply(this, arguments);
+        return this.result;
+    }
 
 }(jQuery));
