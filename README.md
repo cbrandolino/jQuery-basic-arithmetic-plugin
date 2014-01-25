@@ -11,7 +11,8 @@ Unfortunately, it seems like nobody wrote a decent plugin for such a common occu
 - `$.add(arg1, arg2 [, args...])` adds two or more numbers;
 - `$.subtract(arg1, arg2 [, args...])` subtracts two or more numbers, the leftmost being the first operand;
 - `$.multiply(arg1, arg2 [, args...])` multiplies two or more numbers;
-- `$.divide(arg1, arg2 [, args...])` divides two or more numbers, the leftmost being the first operand.
+- `$.divide(arg1, arg2 [, args...])` divides two or more numbers, the leftmost being the first operand;
+- `$.equals(arg1, arg2 [, args...])` checks two or more numbers for equality.
 
 ## Performance
 
