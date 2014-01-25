@@ -65,15 +65,20 @@
         return this.result;
 
     }
+    	
     
-    $.equals = function() {
-
-        this.operate = function(i) {
-            this.result = this.result === this.operands[i];
-        }
-
-        Operation.apply(this, arguments);
+	$.equals = function() {
+	
+		this.operate = function(i) {
+		    if (i == 1 && this.operands[0] == 0) {
+			    this.result = (this.operands[0] == this.operands[i]);
+			} else {
+			    this.result = (this.result && (this.operands[i-1] === this.operands[i]));
+		    }
+		}
+		
+		Operation.apply(this, arguments);
         return this.result;
-    }
+	}
 
 }(jQuery));
