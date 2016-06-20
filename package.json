@@ -1,0 +1,22 @@
+{
+  "name": "jquery-basic-arithmetic-plugin",
+  "version": "1.1.0",
+  "description": "The long-awaited basic arithmetic plugin for jQuery",
+  "main": "jquery.basic_arithmetics.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baphomet-berlin/jQuery-basic-arithmetic-plugin.git"
+  },
+  "keywords": [
+    "jquery",
+    "arithmetic"
+  ],
+  "author": "Claudio Brandolino <cbrandolino@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/baphomet-berlin/jQuery-basic-arithmetic-plugin/issues"
+  },
+  "homepage": "https://github.com/baphomet-berlin/jQuery-basic-arithmetic-plugin#readme"
+}
