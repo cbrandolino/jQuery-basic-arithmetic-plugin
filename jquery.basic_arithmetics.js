@@ -28,7 +28,6 @@
 
     }
 
-
     $.subtract = function() {
 
         this.operate = function(i) {
@@ -53,8 +52,6 @@
 
     }
 
-
-
     $.multiply = function() {
 
         this.operate = function(i) {
@@ -65,8 +62,7 @@
         return this.result;
 
     }
-    	
-    
+
 	$.equals = function() {
 	
 		this.operate = function(i) {
@@ -79,6 +75,38 @@
 		
 		Operation.apply(this, arguments);
         return this.result;
-	}
+
+    }
+
+    $.addAsync = function() {
+
+        console.log(arguments)
+        return $.when($.add.apply(this, arguments))
+
+    }
+    
+    $.subtractAsync = function() {
+
+        return $.when($.subtract.apply(this, arguments))
+
+    }
+
+    $.divideAsync = function() {
+
+        return $.when($.divide.apply(this, arguments))
+
+    }
+
+    $.multiplyAsync = function() {
+
+        return $.when($.multiply.apply(this, arguments))
+
+    }
+
+    $.equalsAsync = function() {
+
+        return $.when($.equals.apply(this, arguments))
+
+    }
 
 }(jQuery));
